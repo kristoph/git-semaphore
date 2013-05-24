@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Git::Semaphore::VERSION
   gem.authors       = ["Peter Vandenberk"]
   gem.email         = ["pvandenberk@mac.com"]
-  gem.description   = ["git integration with https://semaphoreapp.com"]
-  gem.summary       = ["git integration with https://semaphoreapp.com"]
+  gem.description   = "git integration with https://semaphoreapp.com"
+  gem.summary       = "git integration with https://semaphoreapp.com"
   gem.homepage      = "https://github.com/pvdb/git-semaphore"
 
   gem.files         = `git ls-files`.split($/)
